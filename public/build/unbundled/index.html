@@ -1,11 +1,8 @@
-<!doctype html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
   <link rel="manifest" href="manifest.json">
-  <!-- Older Chrome configuration -->
+  
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="Notes">
   <link rel="icon" sizes="192x192" href="bower_components/note-app-elements/images/icon-4x.png">
@@ -23,15 +20,14 @@
 </head>
 
 <body>
-  <platinum-sw-register auto-register skip-waiting clients-claim reload-on-install href="sw-import.js">
+  <platinum-sw-register auto-register="" skip-waiting="" clients-claim="" reload-on-install="" href="sw-import.js">
     <platinum-sw-cache default-cache-strategy="networkFirst">
     </platinum-sw-cache>
   </platinum-sw-register>
-  <firebase-app name="notes" api-key="AIzaSyA2cl04b3X5DDp9giOtJ8kD-amIdFroRz8" auth-domain="pf-notes-9e1e7.firebaseapp.com"
-    database-url="https://pf-notes-9e1e7.firebaseio.com">
+  <firebase-app name="notes" api-key="AIzaSyA2cl04b3X5DDp9giOtJ8kD-amIdFroRz8" auth-domain="pf-notes-9e1e7.firebaseapp.com" database-url="https://pf-notes-9e1e7.firebaseio.com">
   </firebase-app>
 
   <note-app></note-app>
-</body>
 
-</html>
+
+</body></html>
